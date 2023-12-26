@@ -7,8 +7,8 @@ function Submit() {
   let todoName = inputValue.value;
   let todoDate = dateValue.value;
 
-  console.log(todoName);
-  console.log(todoDate);
+  //console.log(todoName);
+  //console.log(todoDate);
 
   // todoList.name = todoName;
   // todoList.date = todoDate;
@@ -35,7 +35,7 @@ function renderTodoList () {
     todoListInnerHTML = todoListInnerHTML + html;
   }
   
-  console.log(todoListInnerHTML);
+  //console.log(todoListInnerHTML);
   
   document.querySelector('.js-todo-list').innerHTML = todoListInnerHTML;
 }
